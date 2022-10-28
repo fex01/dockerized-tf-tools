@@ -22,7 +22,7 @@ Playing around with the idea to dockerize project specific runtimes &amp; cli to
 
 ## Conclusion
 
-- The [Terraform Getting Started](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)- and the [Build Infrastructure (AWS)]-guide run both just fine with the prepared image.
+- The [Terraform Getting Started](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli)- and the [Build Infrastructure (AWS)](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/aws-build)-guide run both just fine with the prepared image.
 - The guide [Install CDK for Terraform and Run a Quick Start Demo](https://developer.hashicorp.com/terraform/tutorials/cdktf/cdktf-install) not so much:
   - high cpu usage when executing `cdktf` commands
   - execution of `cdktf provider add kreuzwerker/docker` takes multiple minutes or does not execute at all
